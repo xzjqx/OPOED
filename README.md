@@ -41,3 +41,7 @@ crontab -e
 0 8 * * * python /mydata/OPEOD/opeod.py >/mydata/OPEOD/output.txt 2>&1 &
 ```
 cron工具具体使用方法请看[初次使用crontab工具](http://www.xzjqx.me/2016/04/24/%E5%88%9D%E6%AC%A1%E4%BD%BF%E7%94%A8crontab%E5%B7%A5%E5%85%B7/)
+
+## TODO
+- 发送的信息改为每天随机十个单词
+- 发送邮件改为发送短信或微信
